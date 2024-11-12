@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI ChatBot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="chatbot-popup">
+        <!--ChatBot Header-->
+        <div class="chat-header">
+            <div class="header-info">
+                <i class="fa-solid fa-robot  chatbot-logo"></i>
+                <h2 class="logo-text">ChatBot</h2>
+            </div>
+            <button id="close-chatbot"><i class="fa-solid fa-angle-down"></i></button>
+        </div>
+        <!--ChatBot Body-->
+        <div class="chat-body">
+            <div class="message bot-message">
+                <i class="fa-solid fa-robot  bot-avtar"></i>
+                <div class="message-text">
+                    Hey there 👋 <br> How can I help you today?
+                </div>
+            </div>
+        </div>
+        <!--ChatBot Footer-->
+        <div class="chat-footer">
+            <form action="#" class="chat-form">
+                <textarea placeholder="Message..." class="message-input" required></textarea>
+                <div class="chat-controls">
+                    <button type="button" class="btn"><i class=" fa-solid fa-smile"></i></button>
+                    <button type="button" class="btn"><i class="fa-solid fa-paperclip"></i></button>
+                    <button type="enter" id="send-message" class="btn"><i class="fa-solid fa-arrow-up"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
